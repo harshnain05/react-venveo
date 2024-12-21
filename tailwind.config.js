@@ -6,16 +6,10 @@ module.exports = {
   backgroundImage: {
     'hero': './assets/image/png/Isolation_Mode.png'
   },
-      colors: {
-      "greendrk": "#097980",
-      "yellowGreen": "#D2F038",
-    },
   theme: {
     extend: {
       colors: {
-        'cloudy-blue': '#9dc9cc',
-        'lemon-lime': '#D2F038',
-       
+        primary: '#097980',
       },
       fontFamily: {
         sohne: ["Sohne Schmal", "sans-serif"],

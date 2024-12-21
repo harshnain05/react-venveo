@@ -3,7 +3,7 @@ import Header from './Header'
 const Hero = () => {
   return (
     <div>
-      <div className='bg-[#097980] relative xl:pb-[322px] lg:pb-60 sm:pb-56 pb-[175px]'>
+      <div className='bg-primary relative xl:pb-[322px] lg:pb-60 sm:pb-56 pb-[175px]'>
         <img className='xl:max-w-[364px] lg:max-w-[240px] max-w-[180px] w-full absolute left-0 pointer-events-none' src='./assets/image/png/left-img.png.png' alt="side-vector-img" />
         <img className='bottom-0 absolute right-0 max-lg:hidden lg:block max-w-[534px]' src='./assets/image/png/right-bottom.png' alt="right-img " />
         <Header />
