@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       colors: {
         primary: '#097980',
+        YellowLite: '#D2F038'
       },
       fontFamily: {
         sohne: ["Sohne Schmal", "sans-serif"],

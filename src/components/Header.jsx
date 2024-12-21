@@ -49,7 +49,7 @@ const Header = () => {
                         <div className="max-lg:hidden">
                             <ScopIcon />
                         </div>
-                        <button className="bg-[#D2F038] text-black font-semibold font-maisonneue py-7 px-8 flex items-center gap-1.5">Let’s Talk <ArrowIcon /> </button>
+                        <button className="bg-YellowLite hover:bg-blue-800 transition-all hover:text-white text-black font-semibold font-maisonneue py-7 px-8 flex items-center gap-1.5">Let’s Talk <ArrowIcon /> </button>
                     </div>
                 </nav>
             </div>
