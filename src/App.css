@@ -1,0 +1,10 @@
+
+ @font-face {
+  font-family: "maison-neue";
+  src: url("./../public//assets/font/MaisonNeue.otf") format("truetype");
+ }
+ 
+@font-face {
+  font-family: "Sohne Schmal";
+  src: url(../public/assets/font/TestSohneSchmal.otf) format("opentype");
+}
