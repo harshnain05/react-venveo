@@ -20,7 +20,7 @@ const Header = () => {
             <div className="container justify-between mx-auto max-w-[1440px] max-lg:px-4">
                 <nav className="flex justify-between bg-pine-green max-lg:items-center text-white lg:pl-14">
                     <div className="z-[52] relative">
-                        <a href="/"><img src="./assets/image/svg/nav-logo.svg" alt="pageLogo" className="sm:w-[59px] lg:pt-8 pt-4 w-11" /></a>
+                        <a href="/"><img src="./assets/image/svg/nav-logo.svg" alt="navLogo" className="sm:w-[59px] lg:pt-8 pt-4 w-11" /></a>
                     </div>
                     <button onClick={handleOpen} className={`hidden size-8 justify-center relative z-[60] max-lg:flex flex-col overflow-hidden`}>
                         <span className={`w-8 transition-all duration-300 h-0.5 bg-white mb-2 rounded-md ${open ? 'translate-x-10' : ''}`}></span>
