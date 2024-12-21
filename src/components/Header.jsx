@@ -24,8 +24,8 @@ const Header = () => {
                         <a href="/"><img src="./assets/image/svg/nav-logo.svg" alt="navLogo" className="sm:w-[59px] lg:pt-8 pt-4 w-11" /></a>
                     </div>
                     <button onClick={handleOpen} className={`hidden size-8 justify-center relative z-[60] max-lg:flex flex-col overflow-hidden`}>
-                        <span className={`w-8 transition-all duration-300 h-0.5 bg-white mb-2 rounded-md ${open ? 'translate-x-10' : ''}`}></span>
-                        <span className={`w-8 transition-all duration-300 h-0.5 bg-white rounded-md relative after:w-full after:h-full after:bg-white after:absolute after:top-0 after:left-0 after:rounded-md ${open ? 'rotate-45 after:rotate-90' : ''}`}></span>
+                        <span className={`w-8 transition-all duration-300 h-1 bg-white mb-2 rounded-md ${open ? 'translate-x-10' : ''}`}></span>
+                        <span className={`w-8 transition-all duration-300 h-1 bg-white rounded-md relative after:w-full after:h-full after:bg-white after:absolute after:top-0 after:left-0 after:rounded-md ${open ? 'rotate-45 after:rotate-90' : ''}`}></span>
                     </button>
 
                     <div className={`flex gap-[42px] max-lg:fixed max-lg:top-0 lg:pl-12 lg:items-center max-lg:h-full lg:h-[80px] font-maisonneue max-lg:w-full max-lg:flex-col bg-white max-lg:bg-gray-800 max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? 'max-lg:left-0' : 'max-lg:top-full'}`}>
