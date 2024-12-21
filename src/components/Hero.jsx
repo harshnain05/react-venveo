@@ -17,7 +17,7 @@ const Hero = () => {
           </form>
         </div>
       </div>
-      <img className='xl:max-w-[924px] max-w-[800px] sm:block max-sm:hidden w-full mx-auto p-4 xl:-translate-y-64 lg:-translate-y-48 -translate-y-44' src='./assets/image/png/hero-sec.png' alt="hero-img" />
+      <img className='xl:max-w-[924px] max-w-[800px] sm:block max-sm:hidden w-full mx-auto px-4 xl:-translate-y-64 lg:-translate-y-48 -translate-y-44' src='./assets/image/png/hero-sec.png' alt="hero-img" />
       <img className='xl:max-w-[924px] max-w-[800px] sm:hidden max-sm:block max-h-[335px] max-sm:max-w-[328px] w-full mx-auto -translate-y-[127px]' src='./assets/image/png/sm-hero-sec.png' alt="sm-hero-img" />
     </div>
   )
