@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HEADER_LIST } from "../utils/helper";
-import { ArrowIcon} from "../utils/icon";
-import { ScopIcon } from "../utils/icon";
+import { ARROW_ICON } from "../utils/icon";
+import { SCOP_ICON } from "../utils/icon";
 
 const Header = () => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -47,9 +47,9 @@ const Header = () => {
                             </div>
                         ))}
                         <div className="max-lg:hidden">
-                            <ScopIcon />
+                            <SCOP_ICON />
                         </div>
-                        <button className="bg-YellowLite hover:bg-blue-800 transition-all hover:text-white text-black font-semibold font-maisonneue py-7 px-8 flex items-center gap-1.5">Let’s Talk <ArrowIcon /> </button>
+                        <button className="bg-YellowLite hover:bg-blue-800 transition-all hover:text-white text-black font-semibold font-maisonneue py-7 px-8 flex items-center gap-1.5">Let’s Talk <ARROW_ICON /> </button>
                     </div>
                 </nav>
             </div>
