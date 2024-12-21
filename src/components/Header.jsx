@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { HEADER_LIST } from "../utils/helper";
-import { ArrowIcon, SearchIcon } from "../utils/icon";
+import { ArrowIcon} from "../utils/icon";
+import { ScopIcon } from "../utils/icon";
 
 const Header = () => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -38,7 +39,7 @@ const Header = () => {
                                     <div className="absolute left-0 mt-2 w-48 z-[52] bg-white text-gray-800 rounded shadow-lg">
                                         {item.subMenu.map((subItem, subIndex) => (
                                             <a key={subIndex} href="#" onClick={() => setActiveIndex(null)} className="block px-4 py-2
-                     hover:bg-gray-100  duration-200">{subItem}
+                                             hover:bg-gray-100  duration-200">{subItem}
                                             </a>
                                         ))}
                                     </div>
@@ -46,15 +47,7 @@ const Header = () => {
                             </div>
                         ))}
                         <div className="max-lg:hidden">
-                            <SearchIcon />
-                        </div>
-                        <div className="lg:hidden">
-                            <form action="">
-                                <div className="flex bg-[#E8E8E8] py-[21px] px-10 ">
-                                    <input type="text" placeholder="Search" className="flex placeholder:text-[#C9C9C9] text-black bg-transparent outline-none " />
-                                    <SearchIcon />
-                                </div>
-                            </form>
+                            <ScopIcon />
                         </div>
                         <button className="bg-[#D2F038] text-black font-semibold font-maisonneue py-7 px-8 flex items-center gap-1.5">Let’s Talk <ArrowIcon /> </button>
                     </div>
