@@ -1,6 +1,6 @@
 export const HEADER_LIST = [
     {
-        url: '/',
+   
         name: 'How We Help ▼',
         subMenu: [
             "help",
@@ -9,16 +9,16 @@ export const HEADER_LIST = [
         ]
     },
     {
-        url: '/',
+   
         name: 'Who We Help ▼',
         subMenu: [
-            "help",
-            "help",
-            "help",
+            "we help",
+            "we help",
+            "we help",
         ]
     },
     {
-        url: '/',
+   
         name: 'Why Venveo ▼',
         subMenu: [
             "venveo",
@@ -27,7 +27,7 @@ export const HEADER_LIST = [
         ]
     },
     {
-        url: '/',
+   
         name: 'Resources ▼',
         subMenu: [
             "Resource",
